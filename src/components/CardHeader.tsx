@@ -1,4 +1,4 @@
-import './SummaryCard.css';
+import './CardHeader.css';
 
 const CardHeader = () => {
   return (

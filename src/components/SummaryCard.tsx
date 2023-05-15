@@ -1,11 +1,11 @@
-import './SummaryCard.css';
 import CardHeader from './CardHeader';
+import CardBody from './CardBody';
 
 const SummaryCard = () => {
   return (
     <div className='card'>
       <CardHeader />
-      <div className='card-body'></div>
+      <CardBody />
     </div>
   );
 };
