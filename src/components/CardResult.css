@@ -1,0 +1,21 @@
+@import url('../index.css');
+
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.score {
+  color: var(--clr-neutral-dark-gray-blue);
+  font-weight: 800;
+}
+
+.score span {
+  color: var(--clr-neutral-light-lavender);
+  font-weight: 800;
+}
