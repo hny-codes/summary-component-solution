@@ -1,0 +1,70 @@
+@import url('../index.css');
+
+/* Background */
+.container {
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.header-bg {
+  background-image: linear-gradient(
+    var(--clr-gradient-slate-blue),
+    var(--clr-gradient-royal-blue)
+  );
+}
+
+/* Header text */
+.card-header {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.card-header h1 {
+  color: var(--clr-neutral-light-lavender);
+  font-size: 1.2rem;
+}
+
+/* Card icon */
+.card-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  background-image: linear-gradient(
+    var(--clr-gradient-persian-blue),
+    var(--clr-gradient-violet-blue)
+  );
+
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.card-result h2 {
+  color: var(--clr-neutral-white);
+  font-size: 3.5rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card-result span {
+  color: var(--clr-neutral-light-lavender);
+  font-size: 1rem;
+}
+
+.header-text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-text h3 {
+  color: var(--clr-neutral-pale-blue);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-text p {
+  color: var(--clr-neutral-light-lavender);
+}
