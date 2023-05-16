@@ -5,7 +5,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Table of contents
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshots](#screenshot)
+  - [Screenshots](#screenshots)
 - [Built with](#built-with)
 - [Useful resources](#useful-resources)
 
