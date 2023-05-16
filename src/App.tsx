@@ -1,10 +1,11 @@
 import './App.css';
+import SummaryCard from './components/SummaryCard';
 
 function App() {
   return (
-    <>
-      <h1>Hello!</h1>
-    </>
+    <div id='app'>
+      <SummaryCard />
+    </div>
   );
 }
 

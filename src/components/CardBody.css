@@ -67,3 +67,22 @@
     var(--clr-gradient-royal-blue)
   );
 }
+
+@media (min-width: 560px) {
+  .card-body {
+    padding-block: 1rem;
+  }
+
+  .card-body h1 {
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+  }
+
+  .result-item {
+    padding: 0.7rem 0.5rem;
+  }
+
+  .continue-btn {
+    padding-block: 0.8em;
+  }
+}

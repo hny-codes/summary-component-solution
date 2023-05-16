@@ -20,6 +20,12 @@
   --clr-primary-teal: hsl(166, 100%, 37%);
   --clr-primary-blue: hsl(234, 85%, 45%);
 
+  /* Transparent Colors */
+  --clr-primary-red-transparent: hsla(0, 100%, 67%, 0.1);
+  --clr-primary-yellow-transparent: hsla(39, 100%, 56%, 0.1);
+  --clr-primary-teal-transparent: hsla(166, 100%, 37%, 0.1);
+  --clr-primary-blue-transparent: hsla(234, 85%, 45%, 0.1);
+
   /* Color gradients */
   --clr-gradient-slate-blue: hsl(252, 100%, 67%);
   --clr-gradient-royal-blue: hsl(241, 81%, 54%);
@@ -40,10 +46,13 @@
 
   /* Font */
   --font-family: 'Hanken Grotesk';
-
 }
 
 body {
+  font-family: 'Hanken Grotesk';
+}
+
+button {
   font-family: 'Hanken Grotesk';
 }
 

@@ -1,0 +1,9 @@
+@import url('../index.css');
+
+@media (min-width: 560px) {
+  .card {
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    max-width: 660px;
+  }
+}
