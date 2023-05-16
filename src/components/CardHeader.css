@@ -32,8 +32,9 @@
   align-items: center;
   vertical-align: middle;
   background-image: linear-gradient(
-    var(--clr-gradient-persian-blue),
-    var(--clr-gradient-violet-blue)
+    var(--clr-gradient-violet-blue),
+    var(--clr-gradient-persian-blue)
+    
   );
 
   width: 140px;
